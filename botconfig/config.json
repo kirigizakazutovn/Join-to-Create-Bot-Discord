@@ -1,5 +1,5 @@
 {
-  "token": "Paste your Token in here",
+  "token": "",
   "prefix": ".",
 
   "check_all_channels_Interval_in_seconds": 10
