@@ -55,12 +55,12 @@ module.exports = (client, guild) => {
             .setDescription(`To get started, simply type: \`${config.prefix}setup\` and follow the steps!`)
             .setFooter(ee.footertext, ee.footericon)
         )
-        channel.send("**Here is a TUTORIAL VIDEO:**\nhttps://youtu.be/zNE8insVgOA")
+        channel.send("**Here is a TUTORIAL VIDEO:**\nhttps://youtu.be/")
     } else {
         channel.send(
             `**Thanks for Inviting me!**\n\nTo get started, simply type: \`${config.prefix}setup\` and follow the steps\nType: \`${config.prefix}help\` to see a List of all Commands!`
         )
-        channel.send("**Here is a TUTORIAL VIDEO:**\nhttps://youtu.be/zNE8insVgOA")
+        channel.send("**Here is a TUTORIAL VIDEO:**\nhttps://youtu.be/")
     }
 
 }
